@@ -80,7 +80,7 @@ namespace Client
                     // izmena i prikaz studenta broj 1
                     try
                     {
-                        s1.Prezime = "Cukic";
+                        s1.Prezime = "Ivic";
                         proxy.IzmeniStudenta(s1, token);
 
                         // prikaz studenta 1
