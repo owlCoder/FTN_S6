@@ -46,8 +46,8 @@ namespace Client
 
                     // Uzorni studenti ha-ha
                     Student s1 = new Student("Danijel", "Jovanovic", "PR 55/2020");
-                    Student s2 = new Student("Andrea", "Cukic", "PR 145/2020");
-                    Student s3 = new Student("Katarina Remi", "Marinkovic", "PR 134/2020");
+                    Student s2 = new Student("Nevenka", "Nenic", "PR 15/2020");
+                    Student s3 = new Student("Ana", "Marinkovic", "PR 14/2020");
 
                     // dodavanje studenta 1
                     try
@@ -176,7 +176,7 @@ namespace Client
                     // izmena studenta broj 3
                     try
                     {
-                        s3.Prezime = "Pacovcic";
+                        s3.Prezime = "Anovic";
                         proxy.IzmeniStudenta(s3, token);
                     }
                     catch (FaultException<BezbedonosniMehanizmiIzuzetak> be)
